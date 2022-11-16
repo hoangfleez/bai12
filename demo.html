@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="a">
+<input type="button" id="b" onclick=" add_element_to_array()">
+<input type="button" id="c" onclick="display_array()">
+<script>
+    let x = 0;
+    let arry = Array();
+
+    function add_elemnt_to_array(){
+        arry[x]= document.getElementById(a).value;
+        alert("Element:"+ arry[x] +"add at index" + x)
+        x++;
+        document.getElementById("a").value="";
+    }
+</script>
+</body>
+</html>

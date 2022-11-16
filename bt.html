@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //in ra các phần tử trong mảng
+    // let bang = [2, 7, 1, 4, 8, 3]
+    // for (let i = 0; i < bang.length; i++)
+    // document.write('<h1>' + bang[i] +'</h1>')
+
+
+    // in ra các phần tử trong mảng chua hết cho 3
+    // let bang = [2, 7, 1, 4, 8, 3]{
+    // for (let i = 0; i < bang.length; i++)
+    //     if (bang[i] % 3 == 0){
+    //         document.write('<h1>' + bang[i] + '</h1>')
+    //     }
+    // }
+
+    // in ra các phần tử chia hết cho 3 trong h3, chia hết cho 5 trong h2, chia hết cho 3 và 5 trong h1
+    // let bang = [2, 7, 1, 4, 8, 3, 15, 17, 18, 20]
+    // for (let i = 0; i < bang.length; i++) {
+    //     if (bang[i] % 3 == 0 && i % 5 == 0) {
+    //         document.write('<h1>' + i + '</h1>')
+    //     } else if (bang[i] % 3 == 0) {
+    //         document.write('<h2>' + i + '</h2>')
+    //     } else if (bang[i] % 5 == 0) {
+    //         document.write('<h1>' + i + '</h1>')
+    //     }
+    // }
+
+    // //tính tổng các phần tử trong mảnng
+    // let bang = [2, 7, 1, 4, 8, 3, 15, 17, 18, 20]
+    // let tong = 0
+    // for (let i = 0; i < bang.length; i++) {
+    //     tong += bang[i];
+    // }
+    // document.write('kq la:' + tong);
+
+    // //tính tích các phần tử trong mảnng
+    // let bang = [2, 7, 1, 4, 8, 3, 15, 17, 18, 20]
+    // let tich = 1
+    // for (let i = 0; i < bang.length; i++) {
+    //     tich *= bang[i];
+    // }
+    // document.write('kq la:' + tich);
+
+    // Đếm số các phần tử chẵn
+    // let bang = [2, 7, 1, 4, 8, 3, 15, 17, 18, 20]
+    // let dem = 0;
+    // for (let i = 0; i < bang.length; i++) {
+    //     if (bang[i] % 2 == 0) {
+    //         dem++
+    //     }
+    // }
+    // document.write('số phần tử chẵn'+i);
+
+
+    // tính trung bình cộng các phần tử chẵn
+    // let bang = [2, 7, 1, 4, 8, 3, 15, 17, 18, 20]
+    // let dem = 0;
+    // let tbc = 0;
+    // for (let i = 0; i < bang.length; i++) {
+    //     if (bang[i] % 2 == 0) {
+    //         dem++
+    //         tbc+=bang[i]
+    //     }
+    // }
+    // document.write('tbc:'+tbc/dem);
+
+    //    tìm max trong mảng
+    // let bang = [2, 7, 1, 4, 8, 3, 15, 17, 18, 20]
+    // let max = bang[0];
+    // for (let i = 0; i < bang.length; i++) {
+    //     if (bang[i] > max) {
+    //         max = bang[i];
+    //     }
+    // }
+    // document.write('phần tử max là:'+ max);
+
+
+    //    nhập vào a, tìm vị trí a trong mảng.
+
+    let bang = [2, 7, 1, 4, 8, 3, 15, 17, 18, 20]
+    let a = +prompt('Nhập đe:')
+    let vitri;
+    for (let i = 0; i < bang.length; i++) {
+        if (a === bang[i]) {
+           vitri=i;
+        }
+    }
+    alert('vị tí của a là:' +vitri)
+
+
+</script>
+</body>
+</html>
